@@ -77,3 +77,42 @@ body {
 
 
 
+/* HEADER */
+
+
+.header {
+	height: 59px;
+	background: #222222;
+}
+
+.nav-menu__list {
+	list-style-type: none;
+	margin: 0;
+	font-family: Georgia;
+	font-size: 14px;
+	text-transform: uppercase;
+	
+}
+
+.nav-menu__item {
+	display: inline-block;
+	border-right: 1px solid #333333;
+	height: 59px;
+	box-sizing: border-box;
+	width: 132px;
+}
+
+.nav-menu__item-first {
+	border-left: 1px solid #333333;
+}
+
+.top-menu__link {
+	display: block;
+	padding-left: 21px;
+	padding-right: 22px;
+	vertical-align: middle;
+	padding-top: 21px;
+	padding-bottom: 22px;
+}
+
+
