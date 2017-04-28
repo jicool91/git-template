@@ -17,7 +17,7 @@ body {
 	font-weight: lighter;
 }
 
-.top-row__tel-email {
+.top-row__text {
 	display: inline-block;
 	color: #676767;
 	padding-left: 20.5px;
@@ -46,7 +46,7 @@ body {
 	font-size: 13px;
 }
 
-.top-menu {
+.top-row__menu {
 	position: relative;
 	height: 45px;
 }
@@ -66,7 +66,7 @@ body {
 	text-transform: uppercase;
 }
 
-.search-button {
+.top-row__search-button {
 	font-family: Georgia;
 	font-size: 12px;
 	text-transform: uppercase;
@@ -90,35 +90,37 @@ body {
 	list-style-type: none;
 	margin: 0;
 	font-family: Georgia;
-	font-size: 14px;
+	font-size: 0px;
 	text-transform: uppercase;
-	vertical-align: middle;
+	vertical-align: top;
 	padding-left: 0;
+	vertical-align: top;
 }
 
 .nav-menu__item {
 	display: inline-block;
 	border-right: 1px solid #333333;
 	height: 59px;
-	box-sizing: border-box;
-	width: 132px;
-	margin-left: -3px;
-	
+	box-sizing: border-box;	
+	font-size: 14px;	
 }
 
 .nav-menu__item-first {
 	border-left: 1px solid #333333;
+	width: 134px;
+	
 }
 
 .top-menu__link {
 	display: block;
-	padding-left: 21px;
-	padding-right: 22px;
-	vertical-align: middle;
+	font-weight: bold;
+	padding-left: 18px;
+	padding-right: 19px;	
 	padding-top: 21px;
 	padding-bottom: 22px;
 	color: #aaaaaa;
 	text-decoration: none;
+	
 }
 .top-menu__link:hover {
 	color: #969845;
@@ -126,4 +128,24 @@ body {
 
 .nav-menu {
 	text-align: center;
+}
+
+.nav-menu__item-second {
+	width: 144px;
+}
+
+.nav-menu__item-third {
+	width: 143px;
+}
+
+.nav-menu__item-fourth {
+	width: 136px;
+}
+
+.nav-menu__item-last {
+	width: 130px;
+}
+
+.top-row__email {
+	font-size: 14px;
 }
